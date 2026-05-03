@@ -2,7 +2,7 @@ import re
 from groq import Groq
 
 client = Groq(
-    api_key="myapikey")
+    api_key="GROQ_API_KEY")
 
 
 def get_legit_items(data_list, keyword):
