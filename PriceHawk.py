@@ -178,11 +178,3 @@ class SEARCH:
             time.sleep(1)
 
 
-# Example usage
-p1 = SEARCH(
-    keyword="sony wh-1000xm5",
-    min_price=None,
-    max_price=None,
-    use_Ai=True
-)
-p1.main()
